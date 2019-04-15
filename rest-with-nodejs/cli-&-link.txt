@@ -1,0 +1,34 @@
+nodejs                      https://nodejs.org/en/about/
+
+Install node & npm on Ubuntu  
+            https://github.com/nodesource/distributions/blob/master/README.md
+
+npm init 
+
+
+npm i express    [or npm install express --save] 
+                            https://expressjs.com/en/starter/installing.html
+
+npm start
+
+npm i -D nodemon            https://www.npmjs.com/package/nodemon
+
+npm install -D morgan       https://github.com/expressjs/morgan
+
+npm install body-parser     https://github.com/expressjs/body-parser
+                            https://www.npmjs.com/package/body-parser
+
+
+npm install mongoose        https://mongoosejs.com/docs/index.html
+
+
+
+npm install validator       https://www.npmjs.com/package/validator
+
+
+npm i bcrypt                https://www.npmjs.com/package/bcrypt
+
+npm install jsonwebtoken    https://github.com/auth0/node-jsonwebtoken
+
+                            https://jwt.io
+
