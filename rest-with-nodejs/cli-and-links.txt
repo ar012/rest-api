@@ -1,3 +1,12 @@
+To stop rocketchat
+-------------------
+sudo service snap.rocketchat-server.rocketchat-mongo stop
+
+To start mongodb
+----------------
+sudo systemctl start mongod
+=====================================================
+
 nodejs                      https://nodejs.org/en/about/
 
 Install node & npm on Ubuntu  
@@ -31,4 +40,6 @@ npm i bcrypt                https://www.npmjs.com/package/bcrypt
 npm install jsonwebtoken    https://github.com/auth0/node-jsonwebtoken
 
                             https://jwt.io
+
+npm install --save multer   https://github.com/expressjs/multer                           
 

@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const contactController = require('../controllers/contactController');
+const authenticate = require('../middleware/authenticate');
 
 
 
@@ -9,18 +10,18 @@ router.get('/', contactController.getAllContactController);
 
 
 //Post
-router.post('/', contactController.postNewContactController);
+router.post('/', authenticate, contactController.postNewContactController);
 
 
 router.get('/:id', contactController.getSingleContact);
 
 
 // PUT
-router.put('/:id', contactController.edditContact);
+router.put('/:id', authenticate, contactController.edditContact);
 
 
 // DELETE
-router.delete('/:id', contactController.deleteContact);
+router.delete('/:id', authenticate, contactController.deleteContact);
 
 
 module.exports = router;
